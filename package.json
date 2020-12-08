@@ -1,0 +1,22 @@
+{
+  "name": "butterfish",
+  "version": "0.0.0",
+  "description": "Github slack emoji updates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "slack",
+    "emoji",
+    "status"
+  ],
+  "author": "Alexander Acebo",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^2.5.0",
+    "dotenv": "^8.2.0"
+  }
+}
